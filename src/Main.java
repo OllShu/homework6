@@ -46,5 +46,15 @@ public class Main {
             System.out.println("число последовательности "+i);
         }
         System.out.println("____________________________");
+
+        // задание 1 домашки-3 по циклам
+
+        int supplement = 29000;
+        int capital = 0;
+        for (int i=1; i<=12; i++) {
+            capital = capital + supplement;
+            System.out.println("Месяц "+i+ " сумма накоплений равна "+capital+" рублей");
+        }
+        System.out.println("____________________________");
     }
 }
