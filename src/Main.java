@@ -39,5 +39,12 @@ public class Main {
             System.out.println("число последовательности "+i);
         }
         System.out.println("____________________________");
+
+        // задание 3 домашки-2 по циклам
+
+        for (int i=1; i<=512; i=i*2) {
+            System.out.println("число последовательности "+i);
+        }
+        System.out.println("____________________________");
     }
 }
