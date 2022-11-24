@@ -18,5 +18,12 @@ public class Main {
             System.out.println("Четное число "+i);
         }
         System.out.println("____________________________");
+
+        // задание 4
+
+        for (int i=10; i>=-10; i--) {
+            System.out.println("Число "+i);
+        }
+        System.out.println("____________________________");
     }
 }
