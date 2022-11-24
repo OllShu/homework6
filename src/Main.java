@@ -56,5 +56,15 @@ public class Main {
             System.out.println("Месяц "+i+ " сумма накоплений равна "+capital+" рублей");
         }
         System.out.println("____________________________");
+
+        // задание 2 домашки-3 по циклам
+
+        supplement = 29000;
+        capital = 0;
+        for (int i=1; i<=12; i++) {
+            capital = capital + supplement + capital/100;
+            System.out.println("Месяц "+i+ " сумма накоплений равна "+capital+" рублей");
+        }
+        System.out.println("____________________________");
     }
 }
